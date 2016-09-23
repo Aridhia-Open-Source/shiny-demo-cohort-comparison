@@ -1,0 +1,1 @@
+Mini app which reads clinic codes, pediatrics_demographics, pediatrics_genotypes  and pediatrcis_measures and presents two filterable cohort views for comparison. 
