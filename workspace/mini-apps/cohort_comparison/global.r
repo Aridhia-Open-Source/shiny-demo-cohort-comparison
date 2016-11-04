@@ -1,20 +1,18 @@
+if (file.exists("~/datafiles/uploads/xap_helpers.r") == TRUE) {
+  
+  source("~/datafiles/uploads/xap_helpers.r")
+}else{
+  
+}
+
 xap.require("ggvis",
             "dplyr",
             "shiny",
             "shinydashboard")
 
-#library(ggvis)
-#library(dplyr)
-#library(shiny)
-#library(shinydashboard)
 
 
 source("modules.r")
-
-#demo <- read.csv("Y:/Data Science Team/Open Data/GOSH/mock-up datasets/Pediatric/pediatrics_demographics.csv")
-#geno <- read.csv("Y:/Data Science Team/Open Data/GOSH/mock-up datasets/Pediatric/pediatrics_genotypes.csv")
-#measures <- read.csv("Y:/Data Science Team/Open Data/GOSH/mock-up datasets/Pediatric/pediatrics_measures.csv")
-#clinics <- read.csv("Y:/Data Science Team/Open Data/GOSH/mock-up datasets/Pediatric/clinic_identifiers.csv")
 
 
  
