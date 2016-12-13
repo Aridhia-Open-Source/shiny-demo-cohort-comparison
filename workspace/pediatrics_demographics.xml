@@ -1,0 +1,14 @@
+<TableDefinition TableName='pediatrics_demographics' Action='create'>
+  <Columns>
+    <Column Name='id' Type='text'/>
+    <Column Name='gender' Type='text'/>
+    <Column Name='race' Type='text'/>
+    <Column Name='first_name' Type='text'/>
+    <Column Name='last_name' Type='text'/>
+    <Column Name='age' Type='numeric'/>
+    <Column Name='clinic_id' Type='text'/>
+  </Columns>
+  <Format Delimiter=',' Encoding='UTF-8' Header='true' HeaderCase='lower' DateFormat='ISO, DMY' CopyToFile='true'/>
+  <Success RemovefromUpload='true'/>
+  <Fail RemovefromUpload='false'/>
+</TableDefinition>

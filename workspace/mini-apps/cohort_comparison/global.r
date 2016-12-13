@@ -1,9 +1,4 @@
-if (file.exists("~/datafiles/uploads/xap_helpers.r") == TRUE) {
-  
-  source("~/datafiles/uploads/xap_helpers.r")
-}else{
-  
-}
+source("xap_wrapper.r")
 
 xap.require("ggvis",
             "dplyr",

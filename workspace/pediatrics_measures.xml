@@ -1,0 +1,17 @@
+<TableDefinition TableName='pediatrics_measures' Action='create'>
+  <Columns>
+    <Column Name='id' Type='text'/>
+    <Column Name='height' Type='numeric'/>
+    <Column Name='weight' Type='numeric'/>
+    <Column Name='pre_bronc_fev' Type='numeric'/>
+    <Column Name='treatment' Type='text'/>
+    <Column Name='resp' Type='numeric'/>
+    <Column Name='hr' Type='numeric'/>
+    <Column Name='bp_systolic' Type='numeric'/>
+    <Column Name='bp_diastolic' Type='numeric'/>
+    <Column Name='outcome' Type='boolean'/>
+  </Columns>
+  <Format Delimiter=',' Encoding='UTF-8' Header='true' HeaderCase='lower' DateFormat='ISO, DMY' CopyToFile='true'/>
+  <Success RemovefromUpload='true'/>
+  <Fail RemovefromUpload='false'/>
+</TableDefinition>
