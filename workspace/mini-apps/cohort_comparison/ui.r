@@ -17,7 +17,7 @@ body <- dashboardBody(
   #  )
   #),
   
-  navbarPage("BC Reporter", id = "navbar",
+  navbarPage("Cohort Comparison", id = "navbar",
     tabPanel("Population Profile", 
       fluidPage(
         column(6,
