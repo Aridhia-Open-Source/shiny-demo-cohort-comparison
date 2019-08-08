@@ -215,6 +215,10 @@ densityFilter <- function(input, output, session, values, ..., N = 50, label = "
   # watch for clicks on the plot and update the slider if necessary
   observe({
     x <- sessionVars$x
+    # If x is NULL then return early
+    if(is.null(x)) {
+      return()
+    }
     updateSliderInput(session, "slider", value = x)
   })
   

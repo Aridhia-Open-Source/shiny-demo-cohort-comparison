@@ -1,4 +1,3 @@
-source("xap_wrapper.r")
 
 xap.require("ggvis",
             "dplyr",
