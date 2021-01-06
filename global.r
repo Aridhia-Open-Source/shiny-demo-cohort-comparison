@@ -1,14 +1,11 @@
 
-xap.require("ggvis",
-            "dplyr",
-            "shiny",
-            "shinydashboard")
+library(shiny)
+library(shinydashboard)
+library(dplyr)
+library(ggvis)
 
-
-
+source("config.R")
 source("modules.r")
-
-
  
 demo <- xap.read_table("pediatrics_demographics")
 geno <- xap.read_table("pediatrics_genotypes")
