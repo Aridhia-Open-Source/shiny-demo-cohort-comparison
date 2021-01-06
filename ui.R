@@ -1,7 +1,3 @@
-source("global.r")
-
-
-
 
 body <- dashboardBody(
   
@@ -148,11 +144,7 @@ body <- dashboardBody(
 )
 
 
-
-
 header <- dashboardHeader(disable = TRUE)
 sidebar <- dashboardSidebar(disable = TRUE)
 
-
 ui <- dashboardPage(header, sidebar, body)
-
