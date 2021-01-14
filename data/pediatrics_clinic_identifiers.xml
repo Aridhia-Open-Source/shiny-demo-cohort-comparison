@@ -1,0 +1,9 @@
+<TableDefinition TableName='pediatrics_clinic_identifiers' Action='create'>
+  <Columns>
+    <Column Name='clinic_cd' Type='text'/>
+    <Column Name='clinic_name' Type='text'/>
+  </Columns>
+  <Format Delimiter=',' Encoding='UTF-8' Header='true' HeaderCase='lower' DateFormat='ISO, DMY' CopyToFile='true'/>
+  <Success RemovefromUpload='true'/>
+  <Fail RemovefromUpload='false'/>
+</TableDefinition>
