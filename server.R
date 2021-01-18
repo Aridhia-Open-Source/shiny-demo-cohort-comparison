@@ -22,7 +22,7 @@ server <- function(input, output, session) {
     }
   })
   
-  # Defining side ID
+  
   siteid <- reactive({
     participant_list_outputs$filtered_data()$siteid
   })

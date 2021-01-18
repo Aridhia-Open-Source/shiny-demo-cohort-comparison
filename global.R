@@ -3,6 +3,7 @@
 ######################
 
 # Load all the libraries
+
 library(shiny)
 library(shinydashboard)
 library(dplyr)
@@ -17,6 +18,7 @@ for (file in list.files("code", full.names = TRUE)){
 }
 
 # Reading tables on data folder
+ 
 demo <- xap.read_table("pediatrics_demographics")
 geno <- xap.read_table("pediatrics_genotypes")
 measures <- xap.read_table("pediatrics_measures")
@@ -25,6 +27,7 @@ clinics <- xap.read_table("pediatrics_clinic_identifiers")
 cross_var_choices <- colnames(geno[2:11])
 
 # Setting gender and treatment as factors
+
 demo$gender <- factor(demo$gender, levels = c("Female", "Male"))
 measures$treatment <- factor(measures$treatment, levels = c("Budesonide", "Nedocromil", "Placebo"))
 
@@ -38,6 +41,7 @@ name_map <- colnames(geno[2:11])
 names(name_map) <- colnames(geno[2:11])
 
 # Crosstab for gene panels
+
 cross_tab <- function(d, ...) {
   
   labels <- data.frame(x = c(-0.2, -0.2, 0.5, 1.5), y = c(0.5, 1.5, 2.2, 2.2), label = c("-", "+", "+", "-"))
