@@ -12,7 +12,7 @@ documentation_tab <- function() {
                        p("This R Shiny mini-app reads and combines mock up data about clinic codes, demographic information and genotype and clinical measures.
                        It then presents two filterable cohort views for comparison, prints a filterable table with the participants list, and allows you to 
                        download an automatically generated PDF template report"),
-                       h4("Mini-app layout"),
+                       h4("How to use the mini-app"),
                        p("The mini-app contains three tabs. This 'Help' tab gives you an overview of the mini-app itself."),
 
                        tags$ol(
