@@ -24,6 +24,11 @@ body <- dashboardBody(
     # First Tab - Population Profile --------------------------------
     tabPanel("Population Profile", 
       fluidPage(
+        tags$head(tags$style(HTML('
+          .ggvis-output.recalculating {
+            --shiny-fade-opacity: 1;
+          }
+        '))),        
         column(6,
           
           # Column showing 1st cohort
