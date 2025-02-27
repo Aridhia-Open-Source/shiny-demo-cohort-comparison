@@ -11,3 +11,5 @@ package_install <- function(x, ...) {
 # Source this script to install all the libraries needed for the app
 
 packages <- c("shiny", "shinydashboard", "dplyr", "ggvis")
+
+package_install(packages)
