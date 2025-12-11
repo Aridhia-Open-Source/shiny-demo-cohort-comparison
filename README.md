@@ -1,6 +1,6 @@
 # Cohort Comparison
 
-This R Shiny mini-app reads and combines mock up data about clinic codes, demographic information, genotype and clinical measures. Then, it presents two
+This R web app reads and combines mock up data about clinic codes, demographic information, genotype and clinical measures. Then, it presents two
 filterable cohort views for comparison and prints a filterable table with the participants list. It also allows you to download an automatically generated
 PDF template report. 
 
@@ -26,7 +26,7 @@ Open the .Rproj file in RStudio and use `runApp()` to start the app.
 ### Deploying to the workspace
 
 1. Download this GitHub repo as a .zip file.
-2. Create a new blank Shiny app in your workspace called "cohort-comparison".
+2. Create a new blank R web app in your workspace called "cohort-comparison".
 3. Navigate to the `cohort-comparison` folder under "files".
 4. Delete the `app.R` file from the `cohort-comparison` folder. Make sure you keep the `.version` file!
 5. Upload the .zip file to the `cohort-comparison` folder.
